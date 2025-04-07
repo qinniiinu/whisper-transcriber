@@ -1,0 +1,8 @@
+# 執行 Python 程式時，Python 會自動把 .py 原始碼轉換成 .pyc 檔
+__pycache__/
+*.pyc
+#（Python 2.x）在開啟「最佳化模式」時，產生的 最佳化 bytecode 檔案。
+*.pyo
+*.log
+venv/
+.env
